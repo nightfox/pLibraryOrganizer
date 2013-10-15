@@ -1,6 +1,6 @@
 #Author: abhijeet.1989@gmail.com (shadyabhi)
 try:
-    import eyeD3
+    import eyed3
 except ImportError:
     print("You don't have eyeD3 installed. Please install that.")
 
