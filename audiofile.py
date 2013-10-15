@@ -7,7 +7,7 @@ except ImportError:
 class AudioFile:
     def __init__(self, file_location):
         self.file_location = file_location
-        self.tag = eyeD3.Tag()
+        self.tag = eyed3.Tag()
         self.tag.link(file_location)
     
     def getArtist(self):
